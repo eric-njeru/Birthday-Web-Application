@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Birthday-Project</title>
+
+</head>
+<header class="header">Akan Birthday Web App</header>
+
+<body>
+
+    <div class="body">
+        <p>This webpage takes in your gender, date of birth, month of birth and the year <br>
+        It calculates these information to give out your akan name <br>
+        according to Ghana Naming sytstem. </p>
+    </div>
+
+    <div class="container">
+                <form class="form">
+                                <p>DAY</p>
+                <input id="days" type="text" placeholder="DD" name="day" required><br><br>
+
+                                 <P>MONTH</P>
+                <input id="months" type="text" placeholder="MM" name="month" required>
+
+                                    <P> YEAR</P>
+                <input id="years" type="text" placeholder="YYYY" name="year" required>
+
+
+                            <P>MALE</P>
+                <input type="radio" name="Gender" value="male">
+
+                            <P>FEMALE</P>
+                <input type="radio" name="Gender" value="female"><br>
+                <button onclick="akanNames()">calculate</button><br><br>
+
+                    </form>
+             <p><em>DAY</em>: <strong id= "output"></strong><br><br></p>
+             <p>AKAN NAME</em>: <strong id= "name"> </strong></p><br><br>
+</div>
+        <script src="main.js"></script>
+</body>
+</html>
