@@ -1,18 +1,15 @@
-# Birthday-Web-Application
-# Akan-Names.
-[Check it out](https://kamauvick.github.io/Akan-Names/)
+# Birthday Web Application
 
 ## Description.
 A web application that takes a ``user's birthday``, calculates the ``day of the week`` they were born and then depending on their gender outputs their ``Akan Name``. 
 
 ## Author.
- > Victor kamau
+ > Eric Njeru
 
 ## Screenshot.
-<image src="https://github.com/kamauvick/Akan-Names/blob/master/images/shot.png?raw=true" width="1000">
  
  ## Setup.
- > ``git clone https://github.com/kamauvick/Akan-Names.git``
+ > ``git clone https://github.com/eric-njeru/Birthday-Web-Application.git``
  
  ``extract the file``
  
